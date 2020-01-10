@@ -2,7 +2,7 @@ Name: mythes-hu
 Summary: Hungarian thesaurus
 %define upstreamid 20101019
 Version: 0.%{upstreamid}
-Release: 6%{?dist}
+Release: 7%{?dist}
 Source: http://extensions.services.openoffice.org/e-files/1283/9/dict-hu.oxt
 Group: Applications/Text
 URL: http://extensions.services.openoffice.org/project/hu_dicts
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mythes/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20101019-7
+- Mass rebuild 2013-12-27
+
 * Thu Jan 31 2013 Caolán McNamara <caolanm@redhat.com> - 0.20101019-6
 - Resolves: rhbz#905964 nemeth hates version control, or versions :-)
 
